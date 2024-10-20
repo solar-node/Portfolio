@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --box:rgba(0, 63, 23, 0.46);
+    --serviceNameColor:#b544fc;;
+    --serviceContent:rgb(226, 226, 226);
+    --boxHover:rgba(0, 63, 23, 0.396);
+    --underline:grey;
+    --servicesIntrobg:rgba(48, 48, 122, 0.316);
+
+    
+}
+
+.servicesIntro{
+    padding:60px 50px 60px 100px;
+    margin: 60px 0 50px 0;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: var(--servicesIntrobg);
+    font-weight:650;
+    letter-spacing: 1.5px;
+}
+.underline{
+    height: 1.5px;
+    width: 70px;
+    background-color: var(--underline);
+    margin:8px 70px 0 0;
+}
+.container{
+
+    background-color: var(--container);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  
+  
+}
+.box{
+   
+    background-color: var(--box);
+    height: 60vh;
+    width: 400px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 12px;
+
+   
+
+
+}
+.box:hover{
+    background-color:var(--boxHover) ;
+    scale: 1.03;
+    transition: .5s ease;
+}
+.serviceName{
+    font-size: 25px;
+    font-weight: 500;
+    color:var(--serviceNameColor);
+    
+}
+.serviceContent{
+    padding: 25px 25px;
+    color: var(--serviceContent);
+}

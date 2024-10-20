@@ -1,0 +1,27 @@
+:root{
+    --form:rgba(255, 255, 255, 0.111);
+    --formBorder:rgba(233, 233, 233, 0.613);
+    --formColor:white;
+}
+
+.formContainer{
+    margin: 0px 100px;
+    flex-direction: column;
+}
+
+.forms{
+    width: 250px;
+    background-color: var(--form);
+    color: var(--formColor);
+    border: 1px solid var(--formBorder);
+}
+
+.form4{
+    height: 150px;
+    width: 350px;
+}
+
+.btn{
+    background-color: var(--navbtn);
+    border: none;
+}
